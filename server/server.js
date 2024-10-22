@@ -3,6 +3,11 @@ const connectDb = require("./config/dbConnection");
 const errorHandler = require("./middleware/errorHandler");
 const cors = require("cors");
 
+//env filr config
+
+const dotenv = require("dotenv");
+dotenv.config();
+
 connectDb();
 
 const app=express();
