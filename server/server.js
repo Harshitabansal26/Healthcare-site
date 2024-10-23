@@ -107,11 +107,11 @@ app.get("/users",(req,res)=>{
 
         people:[
             {
-                username:"himansh",
+                username:"harshita",
                 age:20
             },
             {
-                username:"mahajan",
+                username:"bansal",
                 age:21
             }
         ]
